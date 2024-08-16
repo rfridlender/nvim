@@ -1,9 +1,6 @@
 return {
   'stevearc/oil.nvim',
   opts = {
-    keymaps = {
-      ['-'] = 'actions.parent',
-    },
     view_options = {
       show_hidden = true,
     },
