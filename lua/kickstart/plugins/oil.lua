@@ -1,11 +1,14 @@
 return {
-  {
-    'stevearc/oil.nvim',
-    opts = {
-      view_options = {
-        show_hidden = true,
-      },
+  'stevearc/oil.nvim',
+  opts = {
+    keymaps = {
+      ['-'] = 'actions.parent',
+    },
+    view_options = {
+      show_hidden = true,
     },
   },
+  -- Optional dependencies
+  dependencies = { { 'echasnovski/mini.icons', opts = {} } },
+  -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if prefer nvim-web-devicons
 }
--- vim: ts=2 sts=2 sw=2 et
