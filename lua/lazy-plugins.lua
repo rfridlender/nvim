@@ -28,6 +28,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/vim-fugitive',
 
+  require 'kickstart/plugins/vim-commentary',
+
   require 'kickstart/plugins/which-key',
 
   require 'kickstart/plugins/telescope',
